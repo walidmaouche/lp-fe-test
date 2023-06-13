@@ -1,34 +1,25 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
 ## Getting Started
 
-First, run the development server:
+Hello there, you are part of the team LP and we need to create a new responsive homepage. (mobile first)
 
+First, start docker on your computer then enter the following command to run the project:
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+~ docker-compose up //it should build the container and up the next server 
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Take a look at [the design](https://www.figma.com/file/K80by9O5uoETRhLuGCC0Aa/LeParisien---Homepage?type=design&node-id=0%3A1&mode=design&t=MFQHpnc3rqGFTDKO-1). (feel free to set your own unit, it does not matter if it's not pixel perfect)
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+And you can access to the local environment with your browser to see the result, here : [http://localhost:3000](http://localhost:3000) 
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+---
 
-## Learn More
+Next, let's dig into the test : 
 
-To learn more about Next.js, take a look at the following resources:
+1/ Explain me how you will do this ? (write your thoughts and we can discuss about it later)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+2/ Let's go for some code. You will find a mock of articles in 'src/data/articles.json', based on this json, you will create the top part of the new page. Some components are already prepared for this (Header/Nav/En-continu...). Feel free to use everything you like (node modules, framework...) to build this page. [^1]
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+Good luck !!
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+[^1]: :warning: Don't worry you don't need to build all the page, take 1h and do all you can do !
