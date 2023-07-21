@@ -19,6 +19,8 @@ Next, let's dig into the test :
 
 2/ Let's go for some code. You will find a mock of articles in 'src/data/articles.json', based on this json, you will create the top part of the new page. Some components are already prepared for this (Header/Nav/En-continu...). Feel free to use everything you like (node modules, framework...) to build this page. [^1]
 
+Please, do not copy/paste our Homepage, it is not what we are looking for !
+
 
 Good luck !!
 
