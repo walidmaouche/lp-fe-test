@@ -4,12 +4,11 @@ FROM node:18-alpine
 WORKDIR /usr/app
 
 # Install app dependencies
-COPY package.json package-lock.json ./
-
+# COPY package.json package-lock.json ./
+COPY . .
 RUN npm install
 
 # Bundle app source
-#COPY . .
 
 EXPOSE 3000
 
